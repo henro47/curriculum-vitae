@@ -13,8 +13,11 @@ export class AboutComponent implements OnInit {
   education = "BSc Hons in Computer Science and Information Systems" ;
   area = "NWU Potchefsroom Campus";
   cell = "+27 79 923 1400";
+  cellHref = "tel:+27799231400";
   email = "henro47@gmail.com";
+  emailHref = "mailto:henro47@gmail.com?Subject=Job%20Opportunity";
   download = "Download CV";
+  downloadHref ="#"
 
   //About Card info
   aboutTitle = "About";

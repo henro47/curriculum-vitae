@@ -4,12 +4,23 @@
       <div class="card mb-3">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="/src/assets/profile.png">
+            <img src="assets/profile.png">
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">{{name}}</h5>
+              
               <p class="card-text">{{education}}</p>
+              <p class="card-text">{{area}}</p>
+              <a class = "btn btn-outline-info" href={{cellHref}} role="button">{{cell}}</a>
+              <a class = "btn btn-outline-info" href={{emailHref}} role="button">{{email}}</a>
+              <a class = "btn btn-outline-info" href={{downloadHref}} role="button">{{download}}</a>
+              <!--
+              <p class="card-text">{{cell}}</p>
+              <p class="card-text">{{email}}</p>
+              <p class="card-text">{{download}}</p>
+              -->
+              
             </div>
           </div>
         </div>
@@ -28,7 +39,27 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-sm">col-sm</div>
-    <div class="col-sm">col-sm</div>
+    <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
