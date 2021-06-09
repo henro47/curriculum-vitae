@@ -8,8 +8,7 @@
           <p class="card-text">{{education}}</p>
           <p class="card-text">{{area}}</p>
           <div class="d-grid gap-2">
-            <a class="btn btn-primary" href={{cellHref}} role="button">{{cell}}</a>
-            <a class="btn btn-primary" href={{emailHref}} role="button">{{email}}</a>
+            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">{{offConvasButton}}</a>
             <a class="btn btn-primary" href={{downloadHref}} role="button">{{download}}</a>
           </div>     
         </div>
@@ -43,5 +42,19 @@
         </div>
       </div>
     </div>
+  </div>
+</div>
+
+<!--OffCanvas-->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">{{offCanvasTitle}}</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="d-grid gap-2"> 
+      <a class="btn btn-primary" href={{cellHref}} role="button">{{cell}}</a>
+      <a class="btn btn-primary" href={{emailHref}} role="button">{{email}}</a>
+    </div>   
   </div>
 </div>
