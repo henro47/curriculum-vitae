@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
 
 html, body
 {
@@ -27,4 +27,18 @@ body
 .card img{
     max-width: 100%;
     max-height: 100%;
+}
+
+#ico
+{
+    margin-right: 0.5rem;
+}
+
+#largeIco{
+    width: 5.6rem;
+    height: 5.6rem;
+    color: #0bb5f4 ;
+    margin-right: 0.8rem;
+    font-size: 2rem;
+    position: relative;  
 }

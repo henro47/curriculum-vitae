@@ -47,8 +47,12 @@ export class AboutComponent implements OnInit {
   gitHub = "GitHub";
   linkedIn = "LinkedIn";
 
-  gitHubHref = "";
-  linkedInHref = "";
+  gitHubHref = "https://github.com/henro47";
+  linkedInHref = "https://www.linkedin.com/in/hendrikPotgieter4701";
+
+  //OffCanvas Information
+  offCanvasTitle = "Contact Details" ;
+  offConvasButton = "Contact Me";
   ngOnInit(): void {
   }
 
