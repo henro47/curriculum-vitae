@@ -21,13 +21,13 @@
                     <th scope="row">Post Graduate Degree</th>
                     <td>Bachelor of Science Honours in Computer Science and Information Technology</td>
                     <td>2022</td>
-                    <td><a class="btn btn-primary" href="#" role="button"><i class="bi bi-envelope-fill" id="ico"></i>view degree</a></td>
+                    <td><a (click)="changeImage('PG')" class="btn btn-primary" data-bs-toggle="modal" role="button" data-bs-target="#exampleModal"><i class="bi bi-arrow-up-right-square-fill" id="ico"></i>View Degree</a></td>
                   </tr>
                   <tr>
                     <th scope="row">Graduate Degree</th>
                     <td>Bachelor of Science in Information Technology (with distinction)</td>
                     <td>2021</td>
-                    <td><a class="btn btn-primary" href="#" role="button"><i class="bi bi-envelope-fill" id="ico"></i>view degree</a></td>
+                    <td><a (click)="changeImage('GD')" class="btn btn-primary" data-bs-toggle="modal" role="button" data-bs-target="#exampleModal"><i class="bi bi-arrow-up-right-square-fill" id="ico"></i>View Degree</a></td>
                   </tr>
                   <tr>
                   </tr>
@@ -44,8 +44,26 @@
       </h2>
       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-        </div>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">School</th>
+                <th scope="col">Highest Education</th> 
+                <th scope="col">Year</th>
+                <th scope="col">View Document</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Highshool Sentraal</th>
+                <td>Matriculated</td>
+                <td>2017</td>
+                <td><a (click)="changeImage('M')" class="btn btn-primary" data-bs-toggle="modal" role="button" data-bs-target="#exampleModal"><i class="bi bi-arrow-up-right-square-fill" id="ico"></i>View Degree</a></td>
+              </tr>
+              <tr>
+              </tr>
+            </tbody>
+          </table>
       </div>
     </div>
     <div class="accordion-item">
@@ -56,8 +74,46 @@
       </h2>
       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Award</th>
+                <th scope="col">Year</th>
+                <th scope="col">View Document</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Golden Key Member</th>
+                <td>2019</td>
+                <td><a (click)="changeImage('GK')" class="btn btn-primary" data-bs-toggle="modal" role="button" data-bs-target="#exampleModal"><i class="bi bi-arrow-up-right-square-fill" id="ico"></i>View Degree</a></td>
+              </tr>
+              <tr>
+                <th scope="row">Hostel Academic Top 10</th>
+                <td>2019</td>
+                <td><a (click)="changeImage('GD')" class="btn btn-primary" data-bs-toggle="modal" role="button" data-bs-target="#exampleModal"><i class="bi bi-arrow-up-right-square-fill" id="ico"></i>View Degree</a></td>
+              </tr>
+              <tr>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
   </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img id = "img" class="img-fluid" alt="..."> 
+      </div>
+    </div>
+  </div>
+</div>
