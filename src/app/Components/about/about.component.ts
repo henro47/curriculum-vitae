@@ -19,7 +19,7 @@ export class AboutComponent implements OnInit {
   email = "henro47@gmail.com";
   emailHref = "mailto:henro47@gmail.com?Subject=Job%20Opportunity";
   download = "Download CV";
-  downloadHref ="#"
+  downloadHref ="assets/CV.pdf";
 
   //About Card info
   aboutTitle = "About";
