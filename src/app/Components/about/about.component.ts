@@ -30,14 +30,14 @@ export class AboutComponent implements OnInit {
   "I am excellent with working and communicating in a team. I believe in integrity " +
   "and strong moral values and that an individual should strive to be successful not " +
   "only in their career but also in their personal life. " +
-  "I also believe that everything you tackle you can be successful in " +
-  "if you do it with a positive manner and with hard work.";
+  "I also believe that everything you put your energy into, you can be successful in it" +
+  "if you do it with a positive mindset and with hard work.";
 
   //Career Card info
   careerTitle = "Career";
   careerSubTitle = "Goal Objective" ;
   careerBody = "I am looking for an opportunity to grow and learn in my field of study. " + 
-  "I understand that there is still much to learn, and I am willing and eager to learn new things. "+
+  "I understand that there is still much to learn, and I am willing and eager to learn new skills. "+
   "I like to solve complex problems and I try to solve them in a creative, unconventional way. " +
   "When a problem grips me, I push myself to find a solution and I will not be satisfied until it is resolved. " +
   "I am a hardworking, focused and disciplined individual with a big amount of will power. " +
