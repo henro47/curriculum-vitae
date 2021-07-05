@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import { fade } from 'src/app/Animations/fadeAni';
 
 @Component({
   selector: 'app-references',
   templateUrl: './references.component.html',
-  styleUrls: ['./references.component.scss']
+  styleUrls: ['./references.component.scss'],
+  animations: [fade]
 })
 export class ReferencesComponent implements OnInit {
 
