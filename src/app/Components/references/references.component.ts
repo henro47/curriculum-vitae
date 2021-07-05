@@ -36,7 +36,7 @@ export class ReferencesComponent implements OnInit {
   linxCardSub = "@Linx/AS" ;
   linxCardBody = "Company: Linx/AS, Unit 3, Verona Office Park Cnr Malibongwe" +
   "&, MacArthur Ave, Robindale, Randburg, 2194. Date started 18 November 2019 – 14 August 2020. " +
-  " – Developed a mobile front-end and accompanying back-end" ;
+  " – Developed a mobile front-end and accompanying back-end." ;
 
   //References-Accordion
   refTitle = "References" ;
