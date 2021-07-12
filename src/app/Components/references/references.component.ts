@@ -16,17 +16,15 @@ export class ReferencesComponent implements OnInit {
 
   nwuCardTitle = "Assistant" ;
   nwuCardSub = "@ North-West University Potchefstroom Campus" ;
-  nwuCardBodyPy = "Company: North West University, Potchefstroom Campus, " + 
-  "North West, South Africa. Date: February 2019 - June 2019. – Assisting and " + 
-  "marking first year’s Python programming practical assignments and tests." ;
+  nwuCardBodyPy = "Company: North-West University, Potchefstroom Campus, North West, South Africa." +
+  " Date: February 2019 - June 2019. – Assisting and marking first year’s Python programming practical assignments and tests." ;
 
-  nwuCardBodyCSharp = "Company: North West University, Potchefstroom Campus, " + 
-  "North West, South Africa. Date: Started February 2021 - June 2021. – Assisting and " + 
-  "marking second year’s C# programming practical assignments and tests." ;
+  nwuCardBodyCSharp = "Company: North-West University, Potchefstroom Campus, North West, South Africa."+
+  " Date: Started February 2021 - June 2021. – Assisting and marking second year’s C# programming practical assignments and tests." ;
 
-  nwuCardBodyAI = "Company: North West University, Potchefstroom Campus, " + 
-  "North West, South Africa. Date: Started February 2021 - June 2021. – Assisting and " + 
-  "marking final year’s Artifical Intelligence (AI) practical assignments and tests."
+  nwuCardBodyAI = "Company: North-West University, Potchefstroom Campus, North West, South Africa." +
+  " Date: Started February 2021 - June 2021. – Assisting and marking final year’s Artifical Intelligence" +
+  " (AI) practical assignments and tests."
 
   movCardTitle = "Internship" ;
   movCardSub = "@Movation (Pty) Ltd." ;
@@ -46,16 +44,16 @@ export class ReferencesComponent implements OnInit {
   refCardsTitle = "Employer" ;
   
   refCardDirk = "Dr. Dirk Snyman" ;
-  refCardDirkBody = "Dr. Dirk Snyman; North West University; Potchefstroom. 082 367 3778" ;
+  refCardDirkBody = "Dr Dirk Snyman; North-West University; Potchefstroom. 082 367 3778" ;
 
-  refCardKen = "Mr. Kenneth Jackson" ;
-  refCardKenBody = "Mr. Kenneth Jackson; Movation (Pty) Ltd.; Kempton Park. ken.jackson@movation.co.za" ;
+  refCardKen = "Mr Kenneth Jackson" ;
+  refCardKenBody = "Mr Kenneth Jackson; Movation (Pty) Ltd.; Kempton Park. ken.jackson@movation.co.za" ;
 
-  refCardWer = "Mr. Werner Simpson" ;
+  refCardWer = "Mr Werner Simpson" ;
   refCardWerBody = "Mr. Werner Simpson; Linx/AS Randburg; 083 495 3955"; 
 
-  refCardZan = "Mr. Zander Boonzaaeir" ;
-  refCardZanBody = "Mr. Zander Boonzaaeir; North West University; Potchefstroom. 076 627 9479" ;
+  refCardZan = "Mr Zander Boonzaaeir" ;
+  refCardZanBody = "Mr Zander Boonzaaeir; North-West University; Potchefstroom. 076 627 9479" ;
 
   ngOnInit(): void {
   }
