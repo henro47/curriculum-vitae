@@ -13,7 +13,7 @@ export class AboutComponent implements OnInit {
   //Main card info
   name = "Hendrik Fick Renaldo Potgieter (Henro)" ;
   education = "BSc Hons in Computer Science and Information Systems" ;
-  area = "NWU Potchefsroom Campus";
+  area = "NWU Potchefstroom Campus";
   cell = "+27 66 098 0801";
   cellHref = "tel:+27660980801";
   email = "hfrpotgieterC@gmail.com";
