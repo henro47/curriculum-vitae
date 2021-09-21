@@ -11,7 +11,7 @@ export class AboutComponent implements OnInit {
 
   constructor() { }
   //Main card info
-  name = "Hendrik Fick Renaldo Potgieter (Henro)" ;
+  name = "Hendrik Fick Renaldo Potgieter (Henró)" ;
   education = "BSc Hons in Computer Science and Information Systems" ;
   area = "NWU Potchefstroom Campus";
   cell = "+27 66 098 0801";
