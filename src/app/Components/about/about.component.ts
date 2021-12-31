@@ -12,10 +12,10 @@ export class AboutComponent implements OnInit {
   constructor() { }
   //Main card info
   name = "Hendrik Fick Renaldo Potgieter (Henró)" ;
-  education = "BSc Hons in Computer Science and Information Systems" ;
-  area = "NWU Potchefstroom Campus";
-  cell = "+27 66 098 0801";
-  cellHref = "tel:+27660980801";
+  occupation = "Solution Developer at Linxas" ;
+  area = "Guateng";
+  cell = "+27 79 923 1400";
+  cellHref = "tel:+27799231400";
   email = "hfrpotgieterC@gmail.com";
   emailHref = "mailto:hfrpotgieterC@gmail.com?Subject=Job%20Opportunity";
   download = "Download CV";
