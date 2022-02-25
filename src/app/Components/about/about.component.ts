@@ -13,7 +13,7 @@ export class AboutComponent implements OnInit {
   //Main card info
   name = "Hendrik Fick Renaldo Potgieter (Henró)" ;
   occupation = "Solution Developer at Linxas" ;
-  area = "Guateng";
+  area = "Gauteng, South Africa";
   cell = "+27 79 923 1400";
   cellHref = "tel:+27799231400";
   email = "hfrpotgieterC@gmail.com";
