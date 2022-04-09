@@ -25,7 +25,7 @@ export class EducationComponent implements OnInit {
      {
       (<HTMLInputElement>document.getElementById('exampleModalLabel')).innerHTML = "Bsc Hons in CS and IT Degree";
        var coverImg = <HTMLInputElement>document.getElementById('img');
-       coverImg.src = "assets/Template.jpg";
+       coverImg.src = "assets/Post.jpg";
      }
 
      if(buttonId == "M")
