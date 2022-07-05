@@ -46,13 +46,13 @@ export class EducationComponent implements OnInit {
     if (buttonId == 'NPF') {
       (<HTMLInputElement>document.getElementById('exampleModalLabel')).innerHTML = "Neptune DXP - Open Edition Developer Foundation";
       var coverImg = <HTMLInputElement>document.getElementById('img');
-      coverImg.src = "assets/neptune_oef_course.PNG";
+      coverImg.src = "assets/Nepoef.jpg";
     }
 
     if (buttonId == 'NPE') {
       (<HTMLInputElement>document.getElementById('exampleModalLabel')).innerHTML = "Neptune DXP - Open Edition Developer Expert";
       var coverImg = <HTMLInputElement>document.getElementById('img');
-      coverImg.src = "assets/neptune_oee_course.PNG";
+      coverImg.src = "assets/Nepoee.jpg";
     }
   }
 
