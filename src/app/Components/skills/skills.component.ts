@@ -23,6 +23,7 @@ export class SkillsComponent implements OnInit {
   mobile = "Mobile Development" ;
   python = "Python"
   sql = "Structured Query Language" ;
+  neptune = "Neptune-Software"
 
 
   ngOnInit(): void {

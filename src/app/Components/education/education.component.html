@@ -100,6 +100,40 @@
         </div>
       </div>
     </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            {{coursesTitle}}
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Course</th>
+                <th scope="col">Year</th>
+                <th scope="col">View Document</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Neptune DXP - Open Edition Developer Foundation</th>
+                <td>2021</td>
+                <td><a (click)="changeImage('NPF')" class="btn btn-primary" data-bs-toggle="modal" role="button" data-bs-target="#exampleModal"><i class="bi bi-arrow-up-right-square-fill" id="ico"></i>View Course</a></td>
+              </tr>
+              <tr>
+                <th scope="row">Neptune DXP - Open Edition Developer Expert</th>
+                <td>2021</td>
+                <td><a (click)="changeImage('NPE')" class="btn btn-primary" data-bs-toggle="modal" role="button" data-bs-target="#exampleModal"><i class="bi bi-arrow-up-right-square-fill" id="ico"></i>View Course</a></td>
+              </tr>
+              <tr>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
   </div>
 
 

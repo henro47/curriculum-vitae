@@ -26,6 +26,10 @@ export class ReferencesComponent implements OnInit {
   " Date: Started February 2021 - June 2021. – Assisting and marking final year’s Artifical Intelligence" +
   " (AI) practical assignments and tests."
 
+  nwuCardBodyDS = "Company: North-West University, Potchefstroom Campus, North West, South Africa." +
+  " Date: Started August 2021 - December 2021. – Assistant to Professor Rolien Goede for" +
+  " a computer science module: Data Structures";
+
   movCardTitle = "Internship" ;
   movCardSub = "@Movation (Pty) Ltd." ;
   movCardBody = "Company: Movation (Pty) Ltd., E.P Malan Street, Pomona AH, " +
@@ -54,6 +58,9 @@ export class ReferencesComponent implements OnInit {
 
   refCardZan = "Mr Zander Boonzaaeir" ;
   refCardZanBody = "Mr Zander Boonzaaeir; North-West University; Potchefstroom. 076 627 9479" ;
+
+  refCardRolien = "Ms Rolien Goede"
+  refCardRolienBody = "Ms Rolien Goede; North-West University; Potchefstroom. 018 285 2760";
 
   ngOnInit(): void {
   }

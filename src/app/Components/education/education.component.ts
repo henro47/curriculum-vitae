@@ -8,57 +8,65 @@ import { fade } from 'src/app/Animations/fadeAni';
   animations: [fade]
 })
 export class EducationComponent implements OnInit {
-  
+
 
   constructor() { }
 
-  changeImage(buttonId: string)
-  {
-     if(buttonId == 'GD')
-     {
+  changeImage(buttonId: string) {
+    if (buttonId == 'GD') {
       (<HTMLInputElement>document.getElementById('exampleModalLabel')).innerHTML = "BSc IT Degree";
       var coverImg = <HTMLInputElement>document.getElementById('img');
       coverImg.src = "assets/Grad.jpg";
-     }
+    }
 
-     if(buttonId == "PG")
-     {
+    if (buttonId == "PG") {
       (<HTMLInputElement>document.getElementById('exampleModalLabel')).innerHTML = "Bsc Hons in CS and IT Degree";
-       var coverImg = <HTMLInputElement>document.getElementById('img');
-       coverImg.src = "assets/Post.jpg";
-     }
+      var coverImg = <HTMLInputElement>document.getElementById('img');
+      coverImg.src = "assets/Post.jpg";
+    }
 
-     if(buttonId == "M")
-     {
+    if (buttonId == "M") {
       (<HTMLInputElement>document.getElementById('exampleModalLabel')).innerHTML = "Matriculated 2017";
       var coverImg = <HTMLInputElement>document.getElementById('img');
       coverImg.src = "assets/Matric.jpg";
-     }
+    }
 
-    if(buttonId == "GK")
-    {
+    if (buttonId == "GK") {
       (<HTMLInputElement>document.getElementById('exampleModalLabel')).innerHTML = "Golden key Certificate";
       var coverImg = <HTMLInputElement>document.getElementById('img');
       coverImg.src = "assets/GoldenKey.png";
     }
 
-    if(buttonId == 'A')
-    {
+    if (buttonId == 'A') {
       (<HTMLInputElement>document.getElementById('exampleModalLabel')).innerHTML = "Academic Top 10 Award";
       var coverImg = <HTMLInputElement>document.getElementById('img');
       coverImg.src = "assets/TopTen.jpg";
     }
+
+    if (buttonId == 'NPF') {
+      (<HTMLInputElement>document.getElementById('exampleModalLabel')).innerHTML = "Neptune DXP - Open Edition Developer Foundation";
+      var coverImg = <HTMLInputElement>document.getElementById('img');
+      coverImg.src = "assets/neptune_oef_course.PNG";
+    }
+
+    if (buttonId == 'NPE') {
+      (<HTMLInputElement>document.getElementById('exampleModalLabel')).innerHTML = "Neptune DXP - Open Edition Developer Expert";
+      var coverImg = <HTMLInputElement>document.getElementById('img');
+      coverImg.src = "assets/neptune_oee_course.PNG";
+    }
   }
 
-  tertiaryTitle = "Tertiary Education" ;
-  tertiarySubTitle = "North-West University Potchefstroom Campus" ;
+  tertiaryTitle = "Tertiary Education";
+  tertiarySubTitle = "North-West University Potchefstroom Campus";
 
-  secondaryTitle = "Secondary Education" ;
+  secondaryTitle = "Secondary Education";
 
-  achievementsTitle = "Additional Academic Achievements" ;
+  achievementsTitle = "Additional Academic Achievements";
+
+  coursesTitle = "Additional Courses";
 
   //Degree OffCanvas
-  OffCanvasDegTitle = "Bachelor of Science in Information Technology" ;
+  OffCanvasDegTitle = "Bachelor of Science in Information Technology";
 
   ngOnInit(): void {
   }
