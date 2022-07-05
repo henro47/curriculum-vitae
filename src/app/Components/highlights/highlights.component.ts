@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import { fade } from 'src/app/Animations/fadeAni';
 
 @Component({
   selector: 'app-highlights',
   templateUrl: './highlights.component.html',
-  styleUrls: ['./highlights.component.scss']
+  styleUrls: ['./highlights.component.scss'],
+  animations: [fade]
 })
 export class HighlightsComponent implements OnInit {
 
