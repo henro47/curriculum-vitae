@@ -4,12 +4,17 @@
       <div class="card" >
         <img src="assets/profile.JPG" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">{{name}}</h5>
-          <p class="card-text">{{occupation}}</p>
-          <p class="card-text">{{area}}</p>
+          <h5 class="card-title">{{about_main_info.first_name}}</h5>
+          <p class="card-text">
+            {{about_main_info.occupation}}
+          </p>
+          <p class="card-text">
+            {{about_main_info.occupation_second}}
+          </p>
+          <p class="card-text">{{about_main_info.area}}</p>
           <div class="d-grid gap-2">
-            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="bi bi-person-lines-fill" id="ico"></i>{{offConvasButton}}</a>
-            <a class="btn btn-primary" href={{downloadHref}} target="_blank" role="button"><i class="bi bi-download" id="ico"></i>{{download}}</a>
+            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="bi bi-person-lines-fill" id="ico"></i>{{about_offcanvas_info.offcanvas_button}}</a>
+            <a class="btn btn-primary" href={{about_main_info.downloadHref}} target="_blank" role="button"><i class="bi bi-download" id="ico"></i>{{about_main_info.download}}</a>
           </div>     
         </div>
       </div>
@@ -17,27 +22,27 @@
     <div class="col-sm-4">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title"><i class="bi bi-pencil-fill" id="largeIco"></i>{{aboutTitle}}</h5>
-          <h6 class="card-subtitle mb-2 text-muted">{{aboutSubTitle}}</h6>
-          <p class="card-text">{{aboutBody}}</p>
+          <h5 class="card-title"><i class="bi bi-pencil-fill" id="largeIco"></i>{{about_sub_info.about_title}}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{about_sub_info.about_subtitle}}</h6>
+          <p class="card-text">{{about_sub_info.about_body}}</p>
         </div>
       </div>
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title"><i class="bi bi-briefcase-fill" id="largeIco"></i>{{careerTitle}}</h5>
-          <h6 class="card-subtitle mb-2 text-muted">{{careerSubTitle}}</h6>
-          <p class="card-text">{{careerBody}}</p>
+          <h5 class="card-title"><i class="bi bi-briefcase-fill" id="largeIco"></i>{{about_career_info.career_title}}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{about_career_info.career_subtitle}}</h6>
+          <p class="card-text">{{about_career_info.career_body}}</p>
         </div>
       </div>   
     </div>
     <div class="col-sm-4">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title"><i class="bi bi-rss-fill" id="largeIco"></i>{{socialTile}}</h5>
-          <h6 class="card-subtitle mb-2 text-muted">{{socialSubTitle}}</h6>
+          <h5 class="card-title"><i class="bi bi-rss-fill" id="largeIco"></i>{{about_social_info.social_title}}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{about_social_info.social_subtitle}}</h6>
             <div class="d-grid gap-2">
-              <a class="btn btn-primary" href={{gitHubHref}} role="button" target="_blank"><i class="bi bi-github" id="ico"></i>{{gitHub}}</a>
-              <a class="btn btn-primary" href={{linkedInHref}} role="button" target="_blank"><i class="bi bi-linkedin" id="ico"></i>{{linkedIn}}</a>
+              <a class="btn btn-primary" href={{about_social_info.gitHubHref}} role="button" target="_blank"><i class="bi bi-github" id="ico"></i>{{about_social_info.gitHub}}</a>
+              <a class="btn btn-primary" href={{about_social_info.linkedInHref}} role="button" target="_blank"><i class="bi bi-linkedin" id="ico"></i>{{about_social_info.linkedIn}}</a>
             </div> 
         </div>
       </div>
@@ -48,13 +53,13 @@
 <!--OffCanvas-->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
   <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasExampleLabel"><i class="bi bi-person-lines-fill" id="ico"></i>{{offCanvasTitle}}</h5>
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel"><i class="bi bi-person-lines-fill" id="ico"></i>{{about_offcanvas_info.offcanvas_title}}</h5>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
     <div class="d-grid gap-2"> 
-      <a class="btn btn-primary" href={{cellHref}} role="button"><i class="bi bi-telephone-outbound-fill" id="ico"></i>{{cell}}</a>
-      <a class="btn btn-primary" href={{emailHref}} role="button"><i class="bi bi-envelope-fill" id="ico"></i>{{email}}</a>
+      <a class="btn btn-primary" href={{about_main_info.cellHref}} role="button"><i class="bi bi-telephone-outbound-fill" id="ico"></i>{{about_main_info.cell}}</a>
+      <a class="btn btn-primary" href={{about_main_info.emailHref}} role="button"><i class="bi bi-envelope-fill" id="ico"></i>{{about_main_info.email}}</a>
     </div>   
     <img src="assets/Potgieter.png" class="img-fluid">    
   </div>
