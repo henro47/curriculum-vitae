@@ -29,7 +29,7 @@ export class AboutComponent implements OnInit {
   about_sub_info: any = {
     about_title: "About",
     about_subtitle: "A Little about me",
-    about_Body: "I am an independent, hardworking and creative individual" +
+    about_body: "I am an independent, hardworking and creative individual" +
   " who is also reliable and has developed a responsible and ethical approach" +
   " to the tasks that I undertake or any given situation I am placed in." +
   " I am excellent at working and communicating in a team. I believe in integrity" + 
