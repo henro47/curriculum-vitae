@@ -24,14 +24,14 @@ export class HighlightsComponent implements OnInit {
     contents: [
       {
         title: 'Solution Developer @Linxas',
-        content: 'Started a full-time position as a solution developer at Linxas ' 
-        + 'where I have gained experience with a variety of different programming languages '
-        + 'and frameworks. These programming languages and frameworks include Java, JavaScript, '
-        + 'TypeScript, Ionic Angular, Angular, GuiXT, and C#. '
-        + 'A highlight of my position to date is a Fullstack Web Application written in Ionic Angular '
-        + 'which one of our clients use to pull global reports for their business. This soluion '
-        + 'consits of an Ionic Angular front-end web application and an accompanying Node.js Express REST API '
-        + 'that pulls information from a MySQL database that is hosted on a cloud server. ' 
+        content: 'Started a full-time position as a solution developer at Linxas where I '
+          + 'have gained experience with a variety of different programming languages and frameworks. '
+          + 'These programming languages and frameworks include Java, JavaScript, TypeScript, Ionic Angular, Angular, '
+          + 'GuiXT, and C#. A highlight of my position to date is a Fullstack Web Application written in Ionic Angular which '
+          + 'one of our clients use to pull global reports for their business. This solution consists of an Ionic Angular '
+          + 'front-end web application and an accompanying Node.js Express REST API that pulls information from a MySQL database '
+          + 'that is hosted on a cloud server.'
+        
       },
       {
         title: 'Subcontracted Sofware Developer @Pick n Pay',
