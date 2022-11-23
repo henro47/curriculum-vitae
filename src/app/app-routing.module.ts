@@ -6,11 +6,13 @@ import { ReferencesComponent } from './Components/references/references.componen
 import { SkillsComponent } from './Components/skills/skills.component';
 import { HonnoursProjectComponent } from './Components/honnours-project/honnours-project.component' ;
 import { HighlightsComponent } from './Components/highlights/highlights.component';
+import { AdditionalSkillsComponent } from './Components/additional-skills/additional-skills.component';
 
 const routes: Routes = [
   {path:'',component: AboutComponent},
   {path:'education',component:EducationComponent},
   {path:'skills',component:SkillsComponent},
+  {path: 'additional-skills', component:AdditionalSkillsComponent},
   {path:'references',component:ReferencesComponent},
   {path: 'honnours-project', component:HonnoursProjectComponent},
   {path: 'highlights', component:HighlightsComponent}
