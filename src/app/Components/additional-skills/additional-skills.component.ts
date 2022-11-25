@@ -9,6 +9,7 @@ import { CodeWarsApiService } from 'src/app/Services/code-wars-api.service';
 export class AdditionalSkillsComponent implements OnInit {
   codewars_title = "Codewars";
   codewars_subtitle = "My codewars profile";
+  codewars_href = "https://www.codewars.com/users/hfrpotgieter";
 
   codewars_username: string = "";
   codewars_honor: Number = 0;
