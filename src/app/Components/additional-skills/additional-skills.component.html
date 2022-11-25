@@ -1,0 +1,44 @@
+<div class="container-fuild">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title"><i class="bi bi-box" id="largeIco"></i>{{codewars_title}}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{codewars_subtitle}}
+                <a href={{codewars_href}} target="blank"><i class="bi bi-link" id="largeIco"></i></a>
+            </h6>
+            <ul class="list-group list-group-flush">
+                <div>
+                    <li class="list-group-item"><h4><i class="bi bi-person-lines-fill" id="ico"></i>Profile Info:</h4>
+                        <ul class="list-group list-group-flush">
+                            <div>
+                                <li class="list-group-item">Profile Name: {{codewars_username}}</li>
+                                <li class="list-group-item">Honor: {{codewars_honor}}</li>
+                                <li class="list-group-item">Overall Rank: {{codewars_rank}} </li>
+                                <li class="list-group-item">Rank Name: {{codewars_rank_name}}</li>
+                                <li class="list-group-item">Rank Color: {{codewars_rank_color}}</li>
+                                <li class="list-group-item">Rank Score: {{codewars_rank_score}}</li>
+                                <li class="list-group-item"> Challenges Completed: {{codewars_challenges_completed}}
+                                </li>
+                            </div>
+                        </ul>
+                    </li>
+                </div>
+                <div>
+                    <li class="list-group-item"><h4><i class="bi bi-aspect-ratio" id="ico"></i>Languages:</h4>
+                        <ul class="list-group list-group-flush">
+                            <div>
+                                <li class="list-group-item">
+                                    <h5><i class="bi bi-braces" id="ico"></i>Java</h5>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item">Rank: {{codewars_rank_java}}</li>
+                                        <li class="list-group-item">Rank Name: {{codewars_rank_java_name}}</li>
+                                        <li class="list-group-item">Score: {{codewars_rank_java_score}}</li>
+                                    </ul>
+                                </li>
+                            </div>
+                        </ul>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+</div>
