@@ -17,11 +17,20 @@ export class AdditionalSkillsComponent implements OnInit {
   codewars_rank_name: string = "";
   codewars_rank_color: string = "";
   codewars_rank_score: Number = 0;;
+  
   codewars_rank_java: string = "";
   codewars_rank_java_name: string = "";
   codewars_rank_java_color: string = "";
   codewars_rank_java_score: Number = 0;
+  
+  codewars_rank_go: string = "";
+  codewars_rank_go_name: string = "";
+  codewars_rank_go_color: string = "";
+  codewars_rank_go_score: Number = 0;
+
   codewars_challenges_completed: Number = 0;
+
+
 
   constructor(private code_wars_api: CodeWarsApiService) { }
 
@@ -38,6 +47,10 @@ export class AdditionalSkillsComponent implements OnInit {
       this.codewars_rank_java = response.body.ranks.languages.java.rank;
       this.codewars_rank_java_name = response.body.ranks.languages.java.name;
       this.codewars_rank_java_score = response.body.ranks.languages.java.score;
+
+      this.codewars_rank_go = response.body.ranks.languages.go.rank;
+      this.codewars_rank_go_name = response.body.ranks.languages.go.name;
+      this.codewars_rank_go_score = response.body.ranks.languages.go.score;
 
       this.codewars_challenges_completed = response.body.codeChallenges.totalCompleted;
     })
