@@ -17,7 +17,17 @@ export class HighlightsComponent implements OnInit {
   Dates: any = {
     near_future: 'NEAR FUTURE',
     year_2022: '2022',
-    year_2021: '2021'
+    year_2021: '2021',
+    year_2023: '2023'
+  };
+
+  Content_2023: any = {
+    contents : [
+      {
+        title: 'Graduate Software Develeper @Nile.ag',
+        content: 'Started a position as a Golang developer at Nile.ag'
+      }
+    ]
   };
 
   Content_2022: any = {
@@ -40,7 +50,7 @@ export class HighlightsComponent implements OnInit {
         + 'I also develop native JavaScript functions that interface with various SAP functions and native libraries.'
       }
     ]
-  }
+  };
 
   Content_2021: any = {
     contents: [
