@@ -13,8 +13,7 @@ export class AboutComponent implements OnInit {
   //Main card info
   about_main_info: any = {
     first_name: "Hendrik Fick Renaldo Potgieter (Henró)",
-    occupation: "Solution Developer at Linxas",
-    occupation_second: "Subcontracted Software Developer at Pick n Pay", 
+    occupation: "Graduate Software Developer at Nile.ag",
     area: "Gauteng, South Africa",
     cell: "+27 66 098 0801",
     cellHref: "tel:+27660980801",
