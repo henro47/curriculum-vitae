@@ -24,7 +24,7 @@ export class HighlightsComponent implements OnInit {
   Content_2023: any = {
     contents : [
       {
-        title: 'Graduate Software Develeper @Nile.ag',
+        title: 'Graduate Software Developer @Nile.ag',
         content: 'Started a position as a Golang developer at Nile.ag'
       }
     ]
